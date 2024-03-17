@@ -3,7 +3,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oidc');
 // var User = require('../models/user');
 // const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const User = require('../models/user'); // Assuming you have a User model defined
+const User = require('../models/user'); //  have a User model defined
 require('dotenv').config({path: './.env'});
 
 

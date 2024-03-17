@@ -25,7 +25,7 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
   store: MongoStore.create({
-    mongoUrl: process.env.MONGO_URL, // Replace with your MongoDB Atlas URI
+    mongoUrl: process.env.MONGO_URL, // Replace with MongoDB Atlas URI
     ttl: 60 * 60 * 24, // Session TTL (optional)
     autoRemove: 'native' // Automatically remove expired sessions (optional)
   })
